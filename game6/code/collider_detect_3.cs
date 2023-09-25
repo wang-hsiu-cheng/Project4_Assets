@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class collider_detect_0 : MonoBehaviour
+public class collider_detect_3 : MonoBehaviour
 {
     static public bool collid = false, change = false;
     void OnCollisionEnter2D(Collision2D other)
@@ -13,7 +13,7 @@ public class collider_detect_0 : MonoBehaviour
     void OnCollisionStay2D(Collision2D other)
     {
         collid = true;
-        Debug.Log("collid0=true");
+        Debug.Log("collid3=true");
     }
     void OnCollisionExit2D(Collision2D other)
     {
